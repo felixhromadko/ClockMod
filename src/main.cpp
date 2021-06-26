@@ -3,14 +3,10 @@
 #include "custom-types/shared/register.hpp"
 
 #include "UnityEngine/SceneManagement/Scene.hpp"
-#include "UnityEngine/AudioClip.hpp"
-#include "System/IO/File.hpp"
-#include "GlobalNamespace/NoteCutSoundEffect.hpp"
 #include "Clock.hpp"
 #include "main.hpp"
 
 using namespace ClockMod;
-using namespace GlobalNamespace;
 
 // Holds the ModInfo object for this mod. This object is set in void setup()
 static ModInfo modInfo;
